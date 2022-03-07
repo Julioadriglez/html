@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body bgcolor="33CCFF" >
+    <img src="./img/pasatel-logo.gif" alt="logo pasteleria cosmos" width="300" height="200">
+    <h1>Bienvenidi a la Pasteleria Cosmos</h1>
+    <h2>Aqui Podra Hacer Sus Pedidos</h2>
+
+    <form  action="pedido.js">
+    <label for="nombre">Danos tu nombre completo</label> <br>
+    <input type="text" id="nombre"  required="" pattern="a-zA-Z">
+    <br>
+    <label for="telefono">Telefono</label> <br>
+    <input type="tel" id="telefono"  maxlength="10" required="" pattern="0-9">
+    <br>
+    <label for="correo">Correo</label> <br>
+    <input type="email" id="Correo"  required=""  >
+
+    <p>Escoja el sabor del pastel hasta 3 sabores</p>
+    <label for="sabor1"> Primer sabor</label>
+    <br>
+    <!--Declaracion de selectores-->
+    <select name="sabor1" id="sabor1">
+        <option value="Fresa">Fresa</option>
+        <option value="Durazno">Durazno</option>
+        <option value="Capuchino">Capuchino</option>
+        <option value="3Leches">3Leches</option>
+        <option value="flanNapolitano">Flan Napolitano</option>
+        <option value="Pingüinos">Pingüinos</option>
+    </select><br><br>
+
+    <label for="sabor2"> Segundo sabor</label><br>
+    <select name="sabor2" id="sabor2">
+        <option value="ninguno1">Ninguno</option>
+        <option value="Fresa">Fresa</option>
+        <option value="Durazno">Durazno</option>
+        <option value="Capuchino">Capuchino</option>
+        <option value="3Leches">3Leches</option>
+        <option value="flanNapolitano">Flan Napolitano</option>
+        <option value="Pingüinos">Pingüinos</option>
+    </select><br><br>
+
+    <label for="sabor3"> Tercer sabor</label><br>
+    <select name="sabor3" id="sabor3">
+        <option value="Ninguno2">Ninguno</option>
+        <option value="Fresa">Fresa</option>
+        <option value="Durazno">Durazno</option>
+        <option value="Capuchino">Capuchino</option>
+        <option value="3Leches">3Leches</option>
+        <option value="flanNapolitano">Flan Napolitano</option>
+        <option value="Pingüinos">Pingüinos</option>
+    </select><br><br>
+    <!--Selector de adornos-->
+    <p>Escoga los adornos para su pastel</p>
+    <label for="adorno1">Primer Adorno</label><br>
+    <select name="adorno1" id="adorno1">
+        <option value="Chantillin">Chantillin</option>
+        <option value="Nuez">Nuez</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Jalea&fresas">Jalea y fresas</option>
+        <option value="Jalea&duraznos">Jalea y Duraznos</option>
+        <option value="Moras">Moras</option>
+        <option value="Fondant">Fondant</option>
+    </select>
+    <br><br>
+
+    <label for="adorno2">segundo Adorno</label><br>
+    <select name="adorno2" id="adorno2">
+        <option value="Ninguno3">Ninguno</option>
+        <option value="Chantillin">Chantillin</option>
+        <option value="Nuez">Nuez</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Jalea&fresas">Jalea y fresas</option>
+        <option value="Jalea&duraznos">Jalea y Duraznos</option>
+        <option value="Moras">Moras</option>
+        <option value="Fondant">Fondant</option>
+    </select><br><br>
+
+    <label for="adorno3">Tercer Adorno</label><br>
+    <select name="adorno3" id="adorno3">
+        <option value="Ninguno3">Ninguno</option>
+        <option value="Chantillin">Chantillin</option>
+        <option value="Nuez">Nuez</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Jalea&fresas">Jalea y fresas</option>
+        <option value="Jalea&duraznos">Jalea y Duraznos</option>
+        <option value="Moras">Moras</option>
+        <option value="Fondant">Fondant</option>
+    </select>
+    </BR>
+    </BR>
+    <label for="descripción">Describenos como va hacer tu pastel</label> <br>
+    <input type="text" id="descripción"  required="">
+    <br>
+    <br>
+    <!--boton de para pagar-->
+    <a href="./Pago.html">
+        <input type="button" value="Pago">
+    </form>
+    <br>
+    <br>
+ 
+    <br>
+    <a href="./practicaPasteleria.html">
+        <input type="button" value="Cancelar">
+    </a>
+    <br>
+    <br>
+    <hr>
+    <h3>Contacto</h3>
+    <p>Dirección:</p>
+    <p>Alejandro Dumas 105, Polanco, Polanco V Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX</p>
+    <p>Telefono:</p>
+    <p>(52) 5547894621</p>
+    <p>Horarios de atencion</p>
+    <p>Lunes-Viernes</p>
+    <p>9:00 am - 9:00 pm</p>
+    <p>Sabados y Domingo</p>
+    <p>9:00 am - 2:00 pm</p>
+    <br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2237.2344455593457!2d-99.19688448979555!3d19.43119871022531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202021c70f673%3A0xe26241984b2e0eec!2sChurrascaria%20Brazilian%20Steakhouse!5e0!3m2!1ses-419!2smx!4v1646352052484!5m2!1ses-419!2smx" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+</body>
+</html>
